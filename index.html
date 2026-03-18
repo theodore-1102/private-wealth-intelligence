@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Borneo Strategic Partners — Private Wealth Intelligence</title>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;500;600;700;800&family=Source+Serif+4:wght@600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{--nv:#1B2A4A;--nvL:#2D4470;--gd:#C6943E;--gdL:#F5E6CC;--bg:#FAFBFC;--wh:#fff;--bd:#DDE1E8;--bdL:#ECEEF2;
+--tx:#1B2A4A;--tx2:#5A6577;--txM:#8C95A5;--gn:#1B8F5A;--gnB:#E8F5EF;--rd:#C0392B;--rdB:#FCE8E6;
+--amB:#FDF5E6;--prp:#6B5BAE;--prpB:#F0EAFF;--cyn:#2A8F8F;--cynB:#E6F5F3;--blu:#3A7BD5;--bluB:#E8F0FB;
+--fm:'IBM Plex Mono',monospace}
+body{font-family:'Libre Franklin',system-ui,sans-serif;background:var(--bg);color:var(--tx);line-height:1.5;font-size:13.5px}
+.hd{background:var(--nv);padding:0 28px;position:sticky;top:0;z-index:100}
+.hdi{max-width:1440px;margin:0 auto}
+.hdt{display:flex;align-items:center;justify-content:space-between;height:56px}
+.lg-t{font-family:'Source Serif 4',serif;font-size:17px;font-weight:700;color:#fff;letter-spacing:-.3px}
+.lg-s{font-size:10px;color:rgba(255,255,255,.4);letter-spacing:1px;text-transform:uppercase;margin-top:1px}
+.tabs{display:flex;gap:0;border-top:1px solid rgba(255,255,255,.1);overflow-x:auto}
+.tb{padding:10px 18px;font-size:12px;font-weight:600;color:rgba(255,255,255,.5);background:none;border:none;
+border-bottom:2px solid transparent;cursor:pointer;font-family:inherit;white-space:nowrap;transition:all .15s}
+.tb.on{color:#fff;border-bottom-color:var(--gd)}.tb:hover{color:rgba(255,255,255,.8)}
+.ct{max-width:1440px;margin:0 auto;padding:24px 28px 70px}
+.cd{background:var(--wh);border-radius:8px;border:1px solid var(--bd);padding:14px 18px}
+.bg{display:inline-block;padding:2px 8px;border-radius:3px;font-size:10.5px;font-weight:600;letter-spacing:.2px;background:var(--bdL);color:var(--tx2)}
+.bg-g{background:var(--gnB);color:var(--gn)}.bg-r{background:var(--rdB);color:var(--rd)}.bg-a{background:var(--amB);color:var(--gd)}
+.bg-n{background:#E8ECF2;color:var(--nv)}.bg-p{background:var(--prpB);color:var(--prp)}.bg-c{background:var(--cynB);color:var(--cyn)}.bg-b{background:var(--bluB);color:var(--blu)}
+.cb{padding:7px 16px;border-radius:6px;font-size:12.5px;font-weight:600;cursor:pointer;font-family:inherit;border:1px solid var(--bd);background:var(--wh);color:var(--tx);transition:all .15s}
+.cb.on{border-color:var(--nv);background:var(--nv);color:#fff}
+input,select{padding:8px 12px;border-radius:6px;border:1px solid var(--bd);font-size:13px;font-family:inherit;outline:none;background:var(--wh);color:var(--tx)}
+input:focus{border-color:var(--nvL);box-shadow:0 0 0 3px rgba(27,42,74,.06)}
+input::placeholder{color:var(--txM)}select{cursor:pointer}
+table{width:100%;border-collapse:collapse;font-size:13px}
+th{padding:10px 14px;text-align:left;font-weight:600;color:var(--tx2);font-size:10px;text-transform:uppercase;letter-spacing:1px;background:#F5F6F8;border-bottom:2px solid var(--bd)}
+td{padding:10px 14px;border-bottom:1px solid var(--bdL)}tbody tr:hover td{background:#F8F9FB}
+.sl{display:inline-flex;align-items:center;gap:4px;padding:5px 12px;border-radius:4px;background:var(--nv);color:#fff;font-size:10.5px;font-weight:600;text-decoration:none}.sl:hover{background:var(--nvL)}
+.sg{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:12px;margin-bottom:22px}
+.kl{font-size:10px;color:var(--txM);text-transform:uppercase;letter-spacing:1.2px;font-weight:600}
+.kv{font-size:26px;font-weight:800;margin-top:3px;font-family:'Source Serif 4',serif}
+.fl{display:flex;gap:8px;margin-bottom:16px;flex-wrap:wrap;align-items:center;padding-bottom:12px;border-bottom:1px solid var(--bdL)}
+.fl input{flex:1;min-width:160px}.fl select{min-width:90px}
+.fg{display:flex;align-items:center;gap:3px}
+.fl-l{font-size:9.5px;color:var(--txM);text-transform:uppercase;letter-spacing:.8px;font-weight:600}
+.fc{margin-left:auto;font-size:11px;color:var(--txM);font-family:var(--fm)}
+.ct2{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:20px}
+.tbl{background:var(--wh);border-radius:8px;border:1px solid var(--bd);overflow:hidden}.tsc{max-height:620px;overflow-y:auto}
+.ni{display:block;background:var(--wh);border:1px solid var(--bd);border-radius:8px;padding:16px 20px;margin-bottom:10px;transition:all .15s;text-decoration:none;color:inherit}
+.ni:hover{border-color:var(--nvL);box-shadow:0 2px 10px rgba(0,0,0,.04)}
+.nt{display:flex;gap:10px;align-items:flex-start;margin-bottom:7px}
+.ntg{flex-shrink:0;padding:3px 8px;border-radius:3px;font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.4px}
+.ntt{font-size:14px;font-weight:600;color:var(--tx);line-height:1.4}
+.nm{display:flex;flex-wrap:wrap;gap:8px;font-size:11.5px;color:var(--txM);align-items:center}
+.nm a{font-size:11.5px;color:var(--nv);font-weight:600;text-decoration:none}.nm a:hover{text-decoration:underline}
+.nch{display:flex;flex-wrap:wrap;gap:4px;margin-top:7px}
+.nc{padding:2px 7px;border-radius:3px;font-size:10px;background:var(--bg);color:var(--tx2);border:1px solid var(--bdL)}
+.sh{font-family:'Source Serif 4',serif;font-size:18px;font-weight:700;color:var(--nv)}
+.ss{font-size:12px;color:var(--txM);margin-top:2px;line-height:1.5}
+.st{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px;margin-bottom:18px}
+.rb{padding:7px 18px;border-radius:6px;background:var(--nv);color:#fff;font-size:12px;font-weight:600;border:none;cursor:pointer;font-family:inherit}.rb:hover{background:var(--nvL)}.rb:disabled{background:var(--txM);cursor:wait}
+.chb{display:flex;flex-direction:column;height:calc(100vh - 160px);max-height:720px;background:var(--wh);border-radius:8px;border:1px solid var(--bd);overflow:hidden}
+.chm{flex:1;overflow-y:auto;padding:20px}
+.chi{padding:14px 18px;border-top:1px solid var(--bd);display:flex;gap:8px}
+.chi input{flex:1;padding:11px 14px;border-radius:8px}
+.chi button{padding:9px 24px;border-radius:8px;background:var(--nv);color:#fff;border:none;font-weight:600;cursor:pointer;font-family:inherit;font-size:13px}
+.chi button:disabled{background:var(--txM);cursor:wait}
+.msg{margin-bottom:14px;max-width:80%}.mu{margin-left:auto;background:var(--nv);color:#fff;padding:10px 14px;border-radius:12px 12px 2px 12px;font-size:13px;line-height:1.6}
+.ma{background:#F3F5F8;padding:12px 16px;border-radius:12px 12px 12px 2px;font-size:13px;line-height:1.7}
+.dt2{display:inline-flex;gap:4px}.dt2 span{width:5px;height:5px;border-radius:50%;background:var(--txM);animation:bn .6s infinite alternate}
+.dt2 span:nth-child(2){animation-delay:.2s}.dt2 span:nth-child(3){animation-delay:.4s}
+@keyframes bn{to{transform:translateY(-5px);opacity:.3}}
+.sp{width:22px;height:22px;border:3px solid var(--bdL);border-top-color:var(--nv);border-radius:50%;animation:sn .7s linear infinite;margin:0 auto 8px}
+@keyframes sn{to{transform:rotate(360deg)}}
+.em{text-align:center;padding:50px 20px;color:var(--txM)}
+.apib{background:#FFF8E6;border:1px solid #E6D5A8;border-radius:8px;padding:16px 20px;margin-bottom:16px}
+.apib label{font-size:11px;font-weight:600;color:var(--gd);text-transform:uppercase;letter-spacing:.5px}
+.apib input{margin-top:6px;width:100%;font-family:var(--fm);font-size:12px}
+.apin{font-size:11px;color:var(--tx2);margin-top:6px;line-height:1.5}
+.sig-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:10px;margin-bottom:18px}
+.sig{background:var(--wh);border:1px solid var(--bd);border-radius:8px;padding:14px 16px;border-left:3px solid var(--nv)}
+.sig-t{font-size:11px;font-weight:700;color:var(--nv);text-transform:uppercase;letter-spacing:.5px;margin-bottom:4px}
+.sig-v{font-family:'Source Serif 4',serif;font-size:22px;font-weight:700}
+.sig-s{font-size:10.5px;color:var(--txM);margin-top:2px}
+</style></head><body>
+<div id="root"></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/react/18.2.0/umd/react.production.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/18.2.0/umd/react-dom.production.min.js"></script>
+<script>
+var e=React.createElement;
+/* === COUNTRY CONFIG === */
+var CC={
+  SG:{n:"Singapore",f:"\u{1F1F8}\u{1F1EC}",u:"https://www.forbes.com/lists/singapore-billionaires/",l:"Forbes SG 50 Richest"},
+  MY:{n:"Malaysia",f:"\u{1F1F2}\u{1F1FE}",u:"https://www.forbes.com/lists/malaysia-billionaires/",l:"Forbes MY 50 Richest"},
+  ID:{n:"Indonesia",f:"\u{1F1EE}\u{1F1E9}",u:"https://www.forbes.com/lists/indonesia-billionaires/",l:"Forbes ID 50 Richest"},
+  TH:{n:"Thailand",f:"\u{1F1F9}\u{1F1ED}",u:"https://www.forbes.com/lists/thailand-billionaires/",l:"Forbes TH 50 Richest"},
+  PH:{n:"Philippines",f:"\u{1F1F5}\u{1F1ED}",u:"https://www.forbes.com/lists/philippines-billionaires/",l:"Forbes PH 50 Richest"},
+  CN:{n:"Mainland China",f:"\u{1F1E8}\u{1F1F3}",u:"https://www.forbes.com/lists/china-billionaires/",l:"Forbes China 100 Richest"},
+  TW:{n:"Taiwan",f:"\u{1F1F9}\u{1F1FC}",u:"https://www.forbes.com/lists/taiwan-billionaires/",l:"Forbes TW 50 Richest"},
+  HK:{n:"Hong Kong",f:"\u{1F1ED}\u{1F1F0}",u:"https://www.forbes.com/lists/hong-kong-billionaires/",l:"Forbes HK 50 Richest"},
+  SEA:{n:"Other SEA",f:"\u{1F30F}",u:"https://www.forbes.com/billionaires/",l:"Forbes Billionaires"},
+};
+
+/* === ALL BILLIONAIRE DATA (50 per country) === */
+var D={};
+D.SG=[{r:1,n:"Eduardo Saverin",w:43,c:"Meta Platforms / B Capital",i:"Technology",y:"+207%"},{r:2,n:"Kwek Leng Beng & Family",w:14.3,c:"City Developments / Hong Leong",i:"Real Estate",y:"+24%"},{r:3,n:"Li Xiting",w:12.8,c:"Mindray Bio-Medical",i:"Healthcare",y:"-4%"},{r:4,n:"Goh Family (heirs)",w:13.1,c:"Wuthelam / Nippon Paint",i:"Manufacturing",y:"New"},{r:5,n:"Forrest Li",w:12.0,c:"Sea Limited (Shopee)",i:"Technology",y:"+233%"},{r:6,n:"Philip Ng",w:7.5,c:"Far East Organization",i:"Real Estate",y:"+4%"},{r:7,n:"Robert Ng",w:7.4,c:"Sino Group",i:"Real Estate",y:"+4%"},{r:8,n:"Wee Ee Cheong",w:7.2,c:"UOB",i:"Banking",y:"+9%"},{r:9,n:"Zhang Yong & Shu Ping",w:6.6,c:"Haidilao",i:"F&B",y:"+35%"},{r:10,n:"Kwee Brothers",w:6.3,c:"Pontiac Land / Capella",i:"Real Estate",y:"+8%"},{r:11,n:"Khoo Teck Puat Family",w:6.0,c:"Goodwood Group",i:"Diversified",y:"+10%"},{r:12,n:"Leo Koguan",w:5.8,c:"SHI International / Tesla",i:"Technology",y:"-5%"},{r:13,n:"Gang Ye",w:5.0,c:"Sea Limited (COO)",i:"Technology",y:"+67%"},{r:14,n:"Jason Jiang",w:4.0,c:"Focus Media",i:"Advertising",y:"+8%"},{r:15,n:"Raj Kumar & Kishin RK",w:3.8,c:"Royal Holdings / RB Capital",i:"Real Estate",y:"+15%"},{r:16,n:"Kwei Leng See",w:3.7,c:"Hong Leong Group",i:"Diversified",y:"+48%"},{r:17,n:"Danny Yong",w:3.5,c:"Dymon Asia Capital",i:"Hedge Fund",y:"+25%"},{r:18,n:"Peter Lim",w:3.2,c:"Thomson Medical / Valencia CF",i:"Healthcare",y:"+10%"},{r:19,n:"Ong Beng Seng & Christina",w:3.0,c:"Hotel Properties / Club 21",i:"Hospitality",y:"+5%"},{r:20,n:"Chua Thian Poh",w:2.8,c:"Ho Bee Land",i:"Real Estate",y:"+12%"},{r:21,n:"Lim Hock Chee & Family",w:2.6,c:"Sheng Siong Group",i:"Retail",y:"+15%"},{r:22,n:"Wee Ee Chao",w:2.5,c:"UOB / Hiap Hoe",i:"Banking",y:"+10%"},{r:23,n:"Wee Ee Lim",w:2.4,c:"UOB / Haw Par",i:"Banking",y:"+10%"},{r:24,n:"Sam Goi Seng Hui",w:2.3,c:"Tee Yih Jia / GSH",i:"F&B",y:"+8%"},{r:25,n:"Kuok Khoon Hong",w:2.2,c:"Wilmar International",i:"Agribusiness",y:"+5%"},{r:26,n:"Asok Kumar Hiranandani",w:2.1,c:"Royal Group",i:"Real Estate",y:"+7%"},{r:27,n:"Richard Chandler",w:2.0,c:"Clermont Group",i:"Investment",y:"+3%"},{r:28,n:"Choo Chong Ngen",w:1.9,c:"Hotel 81 / Worldwide Hotels",i:"Hospitality",y:"+12%"},{r:29,n:"Tang Wee Kit & Family",w:1.85,c:"Tang Holdings / Tangs",i:"Retail",y:"+5%"},{r:30,n:"Low Tuck Kwong",w:1.8,c:"Bayan Resources",i:"Mining",y:"+3%"},{r:31,n:"Lim Kaling",w:1.7,c:"Razer Inc (investor)",i:"Technology",y:"New"},{r:32,n:"Oei Hong Leong",w:1.65,c:"OHL Foundation",i:"Diversified",y:"+5%"},{r:33,n:"Ron Sim",w:1.6,c:"OSIM / V3 Group",i:"Consumer",y:"+8%"},{r:34,n:"David Chen",w:1.5,c:"Sea Limited (co-founder)",i:"Technology",y:"+72%"},{r:35,n:"Quek Leng Chye",w:1.5,c:"Hong Leong Holdings",i:"Real Estate",y:"New"},{r:36,n:"Chew Gek Khim",w:1.45,c:"Straits Trading / Tecity",i:"Diversified",y:"+5%"},{r:37,n:"Teo Swee Ann",w:1.5,c:"Espressif Systems",i:"Semiconductors",y:"Ret."},{r:38,n:"Lim Chap Huat",w:1.4,c:"Soilbuild Group",i:"Real Estate",y:"+10%"},{r:39,n:"George R. Zage III",w:1.35,c:"Tiga Investments",i:"Private Equity",y:"New"},{r:40,n:"Tan Boy Tee",w:1.3,c:"Sintesa Group",i:"Real Estate",y:"+5%"},{r:41,n:"Loo Choon Yong",w:1.25,c:"Raffles Medical",i:"Healthcare",y:"+8%"},{r:42,n:"Khoo Boo Hor",w:1.2,c:"Royal Group",i:"Real Estate",y:"+5%"},{r:43,n:"Lee Seng Wee Family",w:1.2,c:"OCBC Bank",i:"Banking",y:"+3%"},{r:44,n:"Simon Cheong",w:1.15,c:"SC Global Dev",i:"Real Estate",y:"+10%"},{r:45,n:"Olivia Lum",w:1.1,c:"OL Group",i:"Water Tech",y:"+5%"},{r:46,n:"Lien Ying Chow Family",w:1.1,c:"OUE Group",i:"Real Estate",y:"+3%"},{r:47,n:"Tong Kooi Ong",w:1.08,c:"Edge Media Group",i:"Media",y:"+5%"},{r:48,n:"Mohamed Mustafa",w:1.05,c:"Mustafa Group",i:"Retail",y:"+5%"},{r:49,n:"Wong Fong Fui",w:1.02,c:"Mega First Corp",i:"Energy",y:"+8%"},{r:50,n:"Henry Ng & Siblings",w:1.0,c:"Pan-United Corp",i:"Construction",y:"Ret."}];
+D.MY=[{r:1,n:"Robert Kuok",w:14.2,c:"Kuok Group (Shangri-La)",i:"Diversified",y:"+17%"},{r:2,n:"Quek Leng Chan",w:7.6,c:"Hong Leong MY",i:"Diversified",y:"+10%"},{r:3,n:"Teh Siblings",w:5.9,c:"Public Bank",i:"Banking",y:"+9%"},{r:4,n:"Koon Poh Keong & Siblings",w:5.4,c:"Press Metal Aluminium",i:"Metals",y:"+15%"},{r:5,n:"Krishnan Family",w:5.3,c:"Maxis / Astro",i:"Telecom",y:"New"},{r:6,n:"Chen Lip Keong",w:4.4,c:"NagaCorp",i:"Gaming",y:"+10%"},{r:7,n:"Yeoh Tiong Lay Family",w:4.0,c:"YTL Corporation",i:"Infrastructure",y:"+12%"},{r:8,n:"Lee Thiam Wah",w:3.5,c:"99 Speed Mart",i:"Retail",y:"New"},{r:9,n:"Lau Cho Kun",w:3.2,c:"Hap Seng",i:"Diversified",y:"+5%"},{r:10,n:"Lee Yeow Chor & Seng",w:3.0,c:"IOI Group",i:"Palm Oil",y:"+8%"},{r:11,n:"Jeffrey Cheah",w:2.9,c:"Sunway Group",i:"Real Estate",y:"+20%"},{r:12,n:"Lim Kok Thay",w:2.8,c:"Genting Group",i:"Gaming",y:"+5%"},{r:13,n:"Kuan Kam Hon",w:2.5,c:"Eco World Dev",i:"Real Estate",y:"+7%"},{r:14,n:"Syed Mokhtar AlBukhary",w:2.2,c:"DRB-Hicom",i:"Diversified",y:"+3%"},{r:15,n:"Tiong Hiew King",w:2.0,c:"Rimbunan Hijau",i:"Timber",y:"+5%"},{r:16,n:"Lim Wee Chai",w:1.8,c:"Top Glove Corp",i:"Manufacturing",y:"Ret."},{r:17,n:"Desmond Lim Siew Choon",w:1.7,c:"Pavilion REIT",i:"Real Estate",y:"Ret."},{r:18,n:"Vincent Tan",w:1.65,c:"Berjaya Corp",i:"Diversified",y:"+5%"},{r:19,n:"G. Gnanalingam",w:1.6,c:"Westports",i:"Ports",y:"+8%"},{r:20,n:"Eleena Azlan Shah",w:1.55,c:"Gamuda",i:"Infrastructure",y:"+10%"},{r:21,n:"Ling Chiong Ho",w:1.5,c:"Cahya Mata Sarawak",i:"Construction",y:"+5%"},{r:22,n:"Mokhtar Rahim Family",w:1.45,c:"Sapura Energy",i:"Oil & Gas",y:"+3%"},{r:23,n:"Liew Kee Sin",w:1.4,c:"Eco World Int'l",i:"Real Estate",y:"+7%"},{r:24,n:"Tiah Thee Kian",w:1.35,c:"TA Enterprise",i:"Real Estate",y:"+5%"},{r:25,n:"Kamarudin Meranun",w:1.3,c:"Tune Group / AirAsia",i:"Aviation",y:"+8%"},{r:26,n:"Tony Fernandes",w:1.25,c:"Capital A (AirAsia)",i:"Aviation",y:"+12%"},{r:27,n:"Ninian Mogan",w:1.2,c:"Hartalega",i:"Manufacturing",y:"+5%"},{r:28,n:"Ahmayuddin Ahmad",w:1.15,c:"Weststar Group",i:"Aviation",y:"+3%"},{r:29,n:"Cheng Wen-yen",w:1.1,c:"Poh Kong Holdings",i:"Jewellery",y:"+5%"},{r:30,n:"Danny Tan Chee Sing",w:1.05,c:"Tropicana Corp",i:"Real Estate",y:"+5%"},{r:31,n:"Lim Teck Meng & Family",w:1.0,c:"Genting Plantations",i:"Plantations",y:"+3%"},{r:32,n:"Yaw Teck Seng & Family",w:0.95,c:"Samling Group",i:"Timber",y:"+5%"},{r:33,n:"Tan Heng Chew",w:0.9,c:"Tan Chong Motor",i:"Automotive",y:"+3%"},{r:34,n:"Lee Swee Eng",w:0.88,c:"Serba Dinamik",i:"Oil & Gas",y:"-10%"},{r:35,n:"Ahmad Ezanee Family",w:0.85,c:"Duopharma",i:"Pharma",y:"+8%"},{r:36,n:"William H.J. Cheng",w:0.82,c:"Lion Group",i:"Diversified",y:"+3%"},{r:37,n:"Low Yat Family",w:0.78,c:"YTL Hospitality",i:"Tech/Retail",y:"+5%"},{r:38,n:"Ngau Boon Keat",w:0.72,c:"Carlsberg MY",i:"Beverages",y:"+5%"},{r:39,n:"Surin Upatkoon",w:0.65,c:"SP Setia",i:"Real Estate",y:"+3%"},{r:40,n:"Tan Boon Hock",w:0.49,c:"Optimax Holdings",i:"Healthcare",y:"New"},{r:41,n:"Datuk Lim Si Cheng",w:0.46,c:"S P Setia",i:"Real Estate",y:"+5%"},{r:42,n:"Lee Kim Hua",w:0.45,c:"IOI Properties",i:"Real Estate",y:"+3%"},{r:43,n:"Teo Siew Lai",w:0.44,c:"Pavilion Group",i:"Real Estate",y:"+5%"},{r:44,n:"Lin Xiaochun",w:0.42,c:"Boway / Pavilion",i:"Real Estate",y:"Ret."},{r:45,n:"Gooi Hoe Soon",w:0.40,c:"Paramount Corp",i:"Real Estate",y:"+5%"},{r:46,n:"Chan Kong Chon",w:0.39,c:"Supermax Corp",i:"Manufacturing",y:"-5%"},{r:47,n:"Lee Oi Hian & Hau Hian",w:0.38,c:"KL Kepong",i:"Plantations",y:"+3%"},{r:48,n:"Raja Eleena",w:0.37,c:"Gamuda / MMC",i:"Infrastructure",y:"+3%"},{r:49,n:"Lau Bong Wong",w:0.35,c:"GHL Systems",i:"Fintech",y:"+8%"},{r:50,n:"Lim Kuang Sia",w:0.335,c:"Inari Amertron",i:"Semiconductors",y:"+10%"}];
+D.ID=[{r:1,n:"R. Budi & Michael Hartono",w:43.8,c:"BCA / Djarum",i:"Banking & Tobacco",y:"-13%"},{r:2,n:"Prajogo Pangestu",w:28.3,c:"Barito Pacific",i:"Petrochemicals",y:"+35%"},{r:3,n:"Low Tuck Kwong",w:24.9,c:"Bayan Resources",i:"Coal",y:"-8%"},{r:4,n:"Anthoni Salim & Family",w:13.6,c:"Salim Group / Indofood",i:"Diversified",y:"+6%"},{r:5,n:"Sukanto Tanoto",w:15.9,c:"Royal Golden Eagle",i:"Pulp & Palm Oil",y:"+12%"},{r:6,n:"Sri Prakash Lohia",w:8.5,c:"Indorama Corp",i:"Textiles",y:"+10%"},{r:7,n:"Otto Toto Sugiri",w:7.0,c:"DCI Indonesia",i:"Data Centers",y:"+40%"},{r:8,n:"Dato Sri Tahir",w:5.0,c:"Mayapada Group",i:"Banking",y:"+8%"},{r:9,n:"Alim Markus & Family",w:4.9,c:"Maspion Group",i:"Manufacturing",y:"+5%"},{r:10,n:"Djoko Susanto & Family",w:4.5,c:"Alfamart",i:"Retail",y:"+12%"},{r:11,n:"Eka Tjipta Widjaja Family",w:4.2,c:"Sinar Mas Group",i:"Diversified",y:"+5%"},{r:12,n:"Chairul Tanjung",w:3.8,c:"CT Corp",i:"Media & Retail",y:"+7%"},{r:13,n:"Eddy K. Sariaatmadja",w:3.5,c:"Emtek Group",i:"Media & Tech",y:"+15%"},{r:14,n:"Mochtar Riady & Family",w:3.3,c:"Lippo Group",i:"Real Estate",y:"+5%"},{r:15,n:"Murdaya Poo",w:3.2,c:"Central Cipta Murdaya",i:"Diversified",y:"+5%"},{r:16,n:"Garibaldi Thohir",w:2.8,c:"Adaro Energy",i:"Coal",y:"+10%"},{r:17,n:"Ciliandra Fangiono",w:2.5,c:"First Resources",i:"Palm Oil",y:"+8%"},{r:18,n:"Putera Sampoerna",w:2.4,c:"Sampoerna Strategic",i:"Diversified",y:"+5%"},{r:19,n:"Alexander Tedja",w:2.3,c:"Pakuwon Jati",i:"Real Estate",y:"+10%"},{r:20,n:"Marto Budiman",w:2.2,c:"Harita Group",i:"Mining",y:"+15%"},{r:21,n:"Hary Tanoesoedibjo",w:2.1,c:"MNC Group",i:"Media",y:"+8%"},{r:22,n:"Boenjamin Setiawan Family",w:2.0,c:"Kalbe Farma",i:"Pharma",y:"+5%"},{r:23,n:"Aburizal Bakrie & Family",w:1.9,c:"Bakrie Group",i:"Diversified",y:"+3%"},{r:24,n:"Erick Thohir",w:1.85,c:"Mahaka Group",i:"Media & Sports",y:"+5%"},{r:25,n:"Peter Sondakh",w:1.8,c:"Rajawali Group",i:"Mining",y:"+5%"},{r:26,n:"Jogi Hendra Atmadja",w:1.75,c:"Mayora Indah",i:"F&B",y:"+8%"},{r:27,n:"Harjo Sutanto",w:1.7,c:"Duta Pertiwi",i:"Real Estate",y:"+5%"},{r:28,n:"Theodore Rachmat",w:1.6,c:"Triputra Group",i:"Diversified",y:"+5%"},{r:29,n:"Husain Djojonegoro",w:1.55,c:"ABC Group (Heinz)",i:"F&B",y:"+3%"},{r:30,n:"Edwin Soeryadjaya",w:1.5,c:"Saratoga Investama",i:"Private Equity",y:"+8%"},{r:31,n:"Ciputra Family",w:1.45,c:"Ciputra Group",i:"Real Estate",y:"+5%"},{r:32,n:"Wiwoho Basuki",w:1.4,c:"Gunung Sewu Group",i:"Agribusiness",y:"+5%"},{r:33,n:"Kartini Muljadi",w:1.35,c:"Tempo Scan Pacific",i:"Pharma",y:"+3%"},{r:34,n:"Rusdi Kirana",w:1.3,c:"Lion Air Group",i:"Aviation",y:"+10%"},{r:35,n:"Arifin Panigoro",w:1.25,c:"Medco Energi",i:"Oil & Gas",y:"+5%"},{r:36,n:"Martua Sitorus",w:1.2,c:"Wilmar Int'l",i:"Agribusiness",y:"+3%"},{r:37,n:"Sandiaga Uno",w:1.15,c:"Saratoga / Adaro",i:"Private Equity",y:"+5%"},{r:38,n:"Lim Hariyanto W.S.",w:1.1,c:"Harum Energy",i:"Coal",y:"+8%"},{r:39,n:"Hashim Djojohadikusumo",w:1.05,c:"Arsari Group",i:"Mining",y:"+5%"},{r:40,n:"Sjamsul Nursalim & Family",w:1.0,c:"Gajah Tunggal",i:"Manufacturing",y:"+3%"},{r:41,n:"Susilo Wonowidjojo Family",w:0.95,c:"Gudang Garam",i:"Tobacco",y:"+5%"},{r:42,n:"Bachtiar Karim",w:0.9,c:"Musim Mas",i:"Palm Oil",y:"+3%"},{r:43,n:"Agus L. Sudwikatmono",w:0.85,c:"Indika Energy",i:"Energy",y:"+8%"},{r:44,n:"Handojo S. Muljadi",w:0.82,c:"Lippo Karawaci",i:"Real Estate",y:"+5%"},{r:45,n:"Hadi Surya",w:0.78,c:"Dharma Satya",i:"Palm Oil",y:"+5%"},{r:46,n:"Purnomo Prawiro",w:0.75,c:"Trikomsel Oke",i:"Technology",y:"+3%"},{r:47,n:"Kuncoro Wibowo",w:0.72,c:"ACE Hardware ID",i:"Retail",y:"+8%"},{r:48,n:"Jenny Quantero",w:0.7,c:"DCI Indonesia",i:"Data Centers",y:"+15%"},{r:49,n:"Achmad Hamami",w:0.68,c:"Trakindo Utama",i:"Equipment",y:"+5%"},{r:50,n:"David Audy",w:0.65,c:"Blue Bird Group",i:"Transport",y:"+3%"}];
+D.TH=[{r:1,n:"Chalerm Yoovidhya & Family",w:44.5,c:"Red Bull / TCP Group",i:"Beverages",y:"+24%"},{r:2,n:"Chearavanont Brothers",w:35.7,c:"Charoen Pokphand",i:"Agribusiness",y:"+23%"},{r:3,n:"Sarath Ratanavadi",w:12.0,c:"Gulf Energy / AIS",i:"Energy & Telecom",y:"+30%"},{r:4,n:"Charoen Sirivadhanabhakdi",w:10.5,c:"Thai Beverage / TCC",i:"Beverages",y:"+8%"},{r:5,n:"Chirathivat Family",w:8.6,c:"Central Group",i:"Retail",y:"+12%"},{r:6,n:"Chaiyawan Family",w:4.2,c:"Thai Life Insurance",i:"Insurance",y:"+15%"},{r:7,n:"Srivaddhanaprabha Family",w:3.9,c:"King Power Duty Free",i:"Retail",y:"+5%"},{r:8,n:"Osathanugrah Family",w:3.6,c:"Osotspa Group",i:"Beverages",y:"+10%"},{r:9,n:"Viddayakorn Family",w:3.5,c:"Kasikornbank",i:"Banking",y:"+8%"},{r:10,n:"Prasert Prasarttong-Osoth",w:3.2,c:"Bangkok Dusit Medical",i:"Healthcare",y:"+7%"},{r:11,n:"Thaksin Shinawatra",w:2.1,c:"AIS / Shin Corp",i:"Telecom",y:"0%"},{r:12,n:"Chuchat Petaumpai",w:1.9,c:"TCP Group",i:"Beverages",y:"+12%"},{r:13,n:"William Heinecke",w:1.8,c:"Minor International",i:"Hospitality",y:"+5%"},{r:14,n:"Harald Link",w:1.6,c:"B.Grimm Group",i:"Energy",y:"+10%"},{r:15,n:"Keeree Kanjanapas",w:1.55,c:"BTS Group",i:"Transport",y:"+8%"},{r:16,n:"Prayudh Mahagitsiri",w:1.5,c:"PM Group",i:"Petrochemicals",y:"+5%"},{r:17,n:"Santi Bhirombhakdi",w:1.45,c:"Boon Rawd (Singha)",i:"Beverages",y:"+5%"},{r:18,n:"Isara Vongkusolkit",w:1.4,c:"Mitr Phol Group",i:"Sugar & Energy",y:"+8%"},{r:19,n:"Vichai Maleenont Family",w:1.35,c:"BEC World / Ch3",i:"Media",y:"+3%"},{r:20,n:"Chatchai Kaewbootta",w:1.3,c:"SCG (advisory)",i:"Construction",y:"+5%"},{r:21,n:"Somphote Ahunai",w:1.2,c:"Energy Absolute",i:"Renewables",y:"-80%"},{r:22,n:"Thiraphong Chansiri",w:1.15,c:"Thai Union Group",i:"Seafood",y:"+5%"},{r:23,n:"Chamnong Bhirombhakdi",w:1.1,c:"Singha Corporation",i:"Beverages",y:"+3%"},{r:24,n:"Srettha Thavisin Family",w:1.05,c:"Sansiri PCL",i:"Real Estate",y:"+8%"},{r:25,n:"Anant Asavabhokhin",w:1.0,c:"Land & Houses",i:"Real Estate",y:"+5%"},{r:26,n:"Cheng Niruttinanon",w:0.95,c:"Carabao Group",i:"Beverages",y:"+10%"},{r:27,n:"Anat Arbhabhirama",w:0.9,c:"Thai Oil",i:"Energy",y:"+5%"},{r:28,n:"Somsak Leeswadtrakul",w:0.88,c:"Muang Thai Insurance",i:"Insurance",y:"+5%"},{r:29,n:"Nirun Fuwattana",w:0.85,c:"SPI Group",i:"Hospitality",y:"+3%"},{r:30,n:"Premchai Karnasuta",w:0.82,c:"Italian-Thai Dev",i:"Construction",y:"+5%"},{r:31,n:"Banterng Tantivit Family",w:0.8,c:"TMB Thanachart",i:"Banking",y:"+5%"},{r:32,n:"Pailin Chuchottaworn",w:0.78,c:"PTT",i:"Energy",y:"+3%"},{r:33,n:"Somporn Jutagostham",w:0.75,c:"Phyathai Hospital",i:"Healthcare",y:"+5%"},{r:34,n:"Wichai Thongtang",w:0.72,c:"Baker McKenzie TH",i:"Legal",y:"+3%"},{r:35,n:"Nutthaphong Kunakornwong",w:0.7,c:"Origin Property",i:"Real Estate",y:"+8%"},{r:36,n:"Boonkiet Chokwatana",w:0.68,c:"Saha Group",i:"Consumer",y:"+5%"},{r:37,n:"Surong Bulakul",w:0.65,c:"Thai Airways (adv.)",i:"Aviation",y:"+3%"},{r:38,n:"Pakit Padungkarn",w:0.62,c:"KGI Securities TH",i:"Finance",y:"+5%"},{r:39,n:"Pattaraphan Kangwolkij",w:0.6,c:"Index Living Mall",i:"Retail",y:"+5%"},{r:40,n:"Supaluck Umpujh",w:0.58,c:"Mall Group",i:"Retail",y:"+5%"},{r:41,n:"Suthichai Chirathivat",w:0.56,c:"Central Group",i:"Retail",y:"+3%"},{r:42,n:"Chanin Vongkusolkit",w:0.54,c:"Banpu",i:"Energy",y:"+5%"},{r:43,n:"Supant Mongkolsuthree",w:0.52,c:"FTI",i:"Manufacturing",y:"+3%"},{r:44,n:"Ravi Lohtong",w:0.5,c:"IRPC / PTT",i:"Energy",y:"+5%"},{r:45,n:"Kovit Poshyananda",w:0.48,c:"VGI Group",i:"Media",y:"+8%"},{r:46,n:"Narongpand Lisahapanya",w:0.47,c:"Supalai PCL",i:"Real Estate",y:"+5%"},{r:47,n:"Somprasong Boonyachai",w:0.46,c:"SCB X",i:"Finance",y:"+3%"},{r:48,n:"Chokechai Bulakul",w:0.44,c:"Saha Pathanapibul",i:"Consumer",y:"+5%"},{r:49,n:"Roongrote Rangsiyopash",w:0.43,c:"SCG",i:"Construction",y:"+3%"},{r:50,n:"Banyong Pongpanich",w:0.42,c:"SEC",i:"Finance",y:"+5%"}];
+D.PH=[{r:1,n:"Sy Siblings",w:11.8,c:"SM Group / BDO",i:"Retail",y:"-9%"},{r:2,n:"Enrique Razon Jr.",w:11.5,c:"ICTSI / Solaire",i:"Ports & Gaming",y:"+6%"},{r:3,n:"Manuel Villar",w:11.0,c:"Vista Land / Villar Land",i:"Real Estate",y:"+1%"},{r:4,n:"Ramon Ang",w:3.75,c:"San Miguel Corp",i:"Diversified",y:"+7%"},{r:5,n:"Isidro Consunji & Siblings",w:3.7,c:"DMCI Holdings",i:"Construction",y:"+5%"},{r:6,n:"Que Azcona Family",w:3.6,c:"Mercury Drug",i:"Pharmacy",y:"+112%"},{r:7,n:"Jaime Zobel de Ayala",w:3.4,c:"Ayala Corporation",i:"Diversified",y:"+31%"},{r:8,n:"Lucio Tan",w:3.2,c:"LT Group / PAL / PNB",i:"Diversified",y:"+7%"},{r:9,n:"Lucio & Susan Co",w:3.0,c:"Puregold / S&R",i:"Retail",y:"+25%"},{r:10,n:"Tony Tan Caktiong",w:2.9,c:"Jollibee Foods",i:"F&B",y:"+12%"},{r:11,n:"Ty Siblings",w:2.8,c:"Metrobank / GT Capital",i:"Banking",y:"+12%"},{r:12,n:"Aboitiz Family",w:2.2,c:"Aboitiz Equity",i:"Diversified",y:"+10%"},{r:13,n:"Po Family",w:1.9,c:"Century Pacific / Shakey's",i:"F&B",y:"+8%"},{r:14,n:"Lance Gokongwei & Siblings",w:1.8,c:"JG Summit / Robinsons",i:"Diversified",y:"+5%"},{r:15,n:"Andrew Tan",w:1.65,c:"Megaworld / Alliance Global",i:"Real Estate",y:"+8%"},{r:16,n:"Dennis & Maria Grace Uy",w:1.6,c:"Converge ICT",i:"Telecom",y:"+74%"},{r:17,n:"Soledad Cojuangco",w:1.15,c:"PLDT",i:"Telecom",y:"+5%"},{r:18,n:"Eusebio Tanco",w:1.1,c:"DigiPlus / STI",i:"Gaming",y:"New"},{r:19,n:"Oscar Lopez & Family",w:1.05,c:"Lopez Holdings",i:"Media",y:"+5%"},{r:20,n:"Sabin Aboitiz",w:1.0,c:"Aboitiz Power",i:"Energy",y:"+8%"},{r:21,n:"Roberto Ongpin",w:0.95,c:"Alphaland / PhilWeb",i:"Real Estate",y:"+5%"},{r:22,n:"Enrique Aboitiz",w:0.9,c:"Aboitiz Land",i:"Real Estate",y:"+5%"},{r:23,n:"Edgar Sia II",w:0.85,c:"DoubleDragon",i:"Real Estate",y:"+8%"},{r:24,n:"David Consunji Legacy",w:0.8,c:"DMCI Homes",i:"Real Estate",y:"+5%"},{r:25,n:"Jon Ramon Aboitiz",w:0.75,c:"Aboitiz InfraCapital",i:"Infrastructure",y:"+5%"},{r:26,n:"Inigo & Mercedes Zobel",w:0.72,c:"Ayala Land / Globe",i:"Real Estate",y:"+5%"},{r:27,n:"Harbin Yu",w:0.68,c:"Meridien Business",i:"Diversified",y:"+3%"},{r:28,n:"Tomas Alcantara",w:0.65,c:"Alsons Consolidated",i:"Diversified",y:"+5%"},{r:29,n:"Roberto Coyiuto Jr.",w:0.6,c:"Prudential / NGCP",i:"Insurance",y:"+5%"},{r:30,n:"Henry Soesanto",w:0.55,c:"Monde Nissin",i:"F&B",y:"+3%"},{r:31,n:"Michael Cosiquien",w:0.50,c:"ISOC Holdings",i:"Energy",y:"+8%"},{r:32,n:"William Belo",w:0.48,c:"8990 Holdings",i:"Real Estate",y:"+5%"},{r:33,n:"Jose Ma. Concepcion III",w:0.46,c:"RFM Corporation",i:"F&B",y:"+3%"},{r:34,n:"Alfredo Yao",w:0.45,c:"Zest-O Corp",i:"Beverages",y:"+5%"},{r:35,n:"Carlos Chan",w:0.43,c:"Oishi / Liwayway",i:"F&B",y:"+5%"},{r:36,n:"Menardo Jimenez",w:0.42,c:"Phinma Corp",i:"Diversified",y:"+3%"},{r:37,n:"Gilberto Duavit Jr.",w:0.40,c:"GMA Network",i:"Media",y:"+5%"},{r:38,n:"Manuel Zamora Jr.",w:0.38,c:"Nickel Asia",i:"Mining",y:"+5%"},{r:39,n:"Federico Lopez & Family",w:0.37,c:"First Gen Corp",i:"Energy",y:"+3%"},{r:40,n:"Sylvia Wenceslao",w:0.36,c:"Megawide Construction",i:"Construction",y:"+5%"},{r:41,n:"Wilfred Uytengsu Jr.",w:0.35,c:"Alaska Milk",i:"F&B",y:"+3%"},{r:42,n:"Frederick Dy",w:0.33,c:"Security Bank",i:"Banking",y:"+5%"},{r:43,n:"Philippe Jones Lhuillier",w:0.31,c:"Cebuana Lhuillier",i:"Finance",y:"New"},{r:44,n:"Mariano Martinez Jr.",w:0.30,c:"GMA Network",i:"Media",y:"New"},{r:45,n:"Vivian Que Azcona Legacy",w:0.28,c:"Mercury Drug",i:"Pharmacy",y:"+5%"},{r:46,n:"Jonathan Gotianun",w:0.27,c:"Filinvest Dev",i:"Real Estate",y:"+3%"},{r:47,n:"Milagros How & Family",w:0.25,c:"Concepcion Industrial",i:"Manufacturing",y:"+5%"},{r:48,n:"Fernando Zobel de Ayala",w:0.23,c:"Ayala Corp",i:"Diversified",y:"+3%"},{r:49,n:"Francis Giles Puno",w:0.20,c:"Metro Pacific",i:"Infrastructure",y:"+5%"},{r:50,n:"Benedicto & Teresita Yujuico",w:0.185,c:"DoubleDragon/DDMP",i:"Real Estate",y:"+3%"}];
+D.CN=[{r:1,n:"Zhong Shanshan",w:77.1,c:"Nongfu Spring",i:"Beverages",y:"+52%"},{r:2,n:"Zhang Yiming",w:65.5,c:"ByteDance (TikTok)",i:"Technology",y:"+30%"},{r:3,n:"Ma Huateng (Pony Ma)",w:62.8,c:"Tencent",i:"Technology",y:"+33%"},{r:4,n:"Robin Zeng",w:53.5,c:"CATL",i:"EV Batteries",y:"+44%"},{r:5,n:"William Ding",w:47.5,c:"NetEase",i:"Gaming",y:"+45%"},{r:6,n:"Colin Huang",w:35.0,c:"PDD (Pinduoduo/Temu)",i:"E-Commerce",y:"-20%"},{r:7,n:"Jack Ma",w:30.0,c:"Alibaba / Ant",i:"E-Commerce",y:"+25%"},{r:8,n:"Wang Chuanfu",w:25.0,c:"BYD Company",i:"EVs",y:"+35%"},{r:9,n:"He Xiangjian",w:22.0,c:"Midea Group",i:"Appliances",y:"+15%"},{r:10,n:"Lei Jun",w:20.5,c:"Xiaomi",i:"Technology",y:"+40%"},{r:11,n:"Zhang Zhidong",w:15.0,c:"Tencent (co-founder)",i:"Technology",y:"+30%"},{r:12,n:"Qin Yinglin",w:14.0,c:"Muyuan Foods",i:"Agriculture",y:"+20%"},{r:13,n:"Li Shufu",w:13.5,c:"Geely Auto",i:"Automotive",y:"+18%"},{r:14,n:"Kelly Zong Fuli",w:12.3,c:"Wahaha Group",i:"Beverages",y:"New"},{r:15,n:"Zhang Junjie",w:11.5,c:"Chagee",i:"F&B",y:"New"},{r:16,n:"Zeng Yuqun Family",w:11.0,c:"CATL (family)",i:"EV Batteries",y:"+20%"},{r:17,n:"Wang Xing",w:10.8,c:"Meituan",i:"Technology",y:"+25%"},{r:18,n:"Xu Hang",w:10.5,c:"Luxshare Precision",i:"Electronics",y:"+15%"},{r:19,n:"Li Xiting",w:10.2,c:"Mindray Medical",i:"Healthcare",y:"+5%"},{r:20,n:"Richard Liu",w:9.8,c:"JD.com",i:"E-Commerce",y:"+20%"},{r:21,n:"Yang Huiyan",w:9.5,c:"Country Garden",i:"Real Estate",y:"-30%"},{r:22,n:"Robin Li",w:9.2,c:"Baidu",i:"Technology/AI",y:"+15%"},{r:23,n:"Wei Jianjun",w:8.8,c:"Great Wall Motor",i:"Automotive",y:"+10%"},{r:24,n:"Ma Jianrong",w:8.5,c:"Shenzhou Int'l",i:"Textiles",y:"+8%"},{r:25,n:"Wang Jianlin",w:8.3,c:"Wanda Group",i:"Real Estate",y:"-15%"},{r:26,n:"Li Ka-shing (CN ops)",w:8.0,c:"CK Hutchison China",i:"Diversified",y:"+10%"},{r:27,n:"Lu Yongxiang",w:7.8,c:"Luxshare Precision",i:"Electronics",y:"+12%"},{r:28,n:"Fan Hongwei",w:7.5,c:"Hengli Petrochemical",i:"Petrochemicals",y:"+8%"},{r:29,n:"Xu Jiayin",w:7.2,c:"Evergrande",i:"Real Estate",y:"-50%"},{r:30,n:"Ren Zhengfei",w:7.0,c:"Huawei",i:"Technology",y:"+15%"},{r:31,n:"Pan Zhengmin",w:6.8,c:"AAC Technologies",i:"Electronics",y:"+10%"},{r:32,n:"Gong Hongjia",w:6.5,c:"Hikvision",i:"Technology/AI",y:"+12%"},{r:33,n:"Zhou Qunfei",w:6.2,c:"Lens Technology",i:"Electronics",y:"+8%"},{r:34,n:"Wang Wei",w:6.0,c:"SF Express",i:"Logistics",y:"+10%"},{r:35,n:"Zhang Lei",w:5.8,c:"Hillhouse Capital",i:"PE",y:"+5%"},{r:36,n:"Chen Bang",w:5.5,c:"Aier Eye Hospital",i:"Healthcare",y:"+8%"},{r:37,n:"Wang Wenyin",w:5.3,c:"Amer Int'l",i:"Metals",y:"+5%"},{r:38,n:"Jiang Rensheng",w:5.0,c:"Zhifei Biological",i:"Pharma",y:"+10%"},{r:39,n:"Li Ge (John Li)",w:4.8,c:"WuXi AppTec",i:"Biotech",y:"+15%"},{r:40,n:"Sun Piaoyang",w:4.5,c:"Hengrui Medicine",i:"Pharma",y:"+8%"},{r:41,n:"Nie Yunchen",w:4.2,c:"HEYTEA",i:"F&B",y:"New"},{r:42,n:"Lu Jianxia",w:4.0,c:"Manner Coffee",i:"F&B",y:"New"},{r:43,n:"Liang Wengen",w:3.8,c:"Sany Heavy Ind.",i:"Manufacturing",y:"+5%"},{r:44,n:"Liu Yongxing",w:3.5,c:"East Hope Group",i:"Agribusiness",y:"+3%"},{r:45,n:"Zuo Hui",w:3.3,c:"KE Holdings",i:"PropTech",y:"+10%"},{r:46,n:"Liu Qiangdong Family",w:3.2,c:"JD.com (family)",i:"E-Commerce",y:"+8%"},{r:47,n:"Wu Yajun",w:3.0,c:"Longfor Properties",i:"Real Estate",y:"-10%"},{r:48,n:"Zhang Bangxin",w:2.8,c:"TAL Education",i:"Education",y:"+15%"},{r:49,n:"Tang Yong'an",w:2.5,c:"Shein (investor)",i:"Fashion",y:"+20%"},{r:50,n:"Xu Yong",w:2.3,c:"Mindray (co-founder)",i:"Healthcare",y:"+5%"}];
+D.TW=[{r:1,n:"Daniel & Richard Tsai",w:13.9,c:"Fubon Financial",i:"Finance",y:"+30%"},{r:2,n:"Barry Lam",w:12.6,c:"Quanta Computer",i:"Technology",y:"+8%"},{r:3,n:"Tsai Hong-tu & Cheng-ta",w:10.9,c:"Cathay Financial",i:"Finance",y:"+25%"},{r:4,n:"Terry Gou",w:9.5,c:"Hon Hai / Foxconn",i:"Electronics",y:"+12%"},{r:5,n:"Zhang Congyuan",w:8.8,c:"Huali Industrial",i:"Footwear",y:"+10%"},{r:6,n:"Lin Shu-hong",w:7.5,c:"Chang Chun Group",i:"Chemicals",y:"+15%"},{r:7,n:"Pierre Chen",w:6.8,c:"Yageo Corporation",i:"Electronics",y:"+12%"},{r:8,n:"Bruce Cheng",w:5.5,c:"Delta Electronics",i:"Power",y:"+18%"},{r:9,n:"Wei Family",w:5.2,c:"Ting Hsin Int'l",i:"F&B",y:"+5%"},{r:10,n:"Jason Chang",w:5.0,c:"ASE Technology",i:"Semiconductors",y:"+80%"},{r:11,n:"Samuel Yin",w:4.8,c:"Ruentex Group",i:"Real Estate",y:"+8%"},{r:12,n:"Luo Jye",w:4.6,c:"MediaTek",i:"Semiconductors",y:"+15%"},{r:13,n:"Jeffrey Koo Jr.",w:4.7,c:"CTBC Financial",i:"Finance",y:"+100%"},{r:14,n:"Tsai Eng-meng",w:4.3,c:"Want Want",i:"F&B",y:"+5%"},{r:15,n:"Douglas Hsu",w:4.0,c:"Far Eastern Group",i:"Diversified",y:"+5%"},{r:16,n:"Morris Chang (legacy)",w:3.8,c:"TSMC (founder)",i:"Semiconductors",y:"+10%"},{r:17,n:"Wang Wen-yuan Family",w:3.5,c:"Formosa Plastics",i:"Petrochemicals",y:"-15%"},{r:18,n:"Tsai Wan-lin Family",w:3.4,c:"Cathay Life",i:"Insurance",y:"+5%"},{r:19,n:"Lin Bai-li",w:3.3,c:"Quanta (vice chair)",i:"Technology",y:"+8%"},{r:20,n:"Angelo Koo",w:3.3,c:"KGI Financial",i:"Finance",y:"+100%"},{r:21,n:"Chao Brothers",w:3.0,c:"Jentech Precision",i:"Semiconductors",y:"New"},{r:22,n:"Eugene Wu",w:2.9,c:"Pegatron Corp",i:"Electronics",y:"+12%"},{r:23,n:"Simon Lin",w:2.8,c:"Wistron Corp",i:"Technology",y:"+10%"},{r:24,n:"Lin Tsung-chi",w:2.9,c:"King Slide Works",i:"AI Servers",y:"New"},{r:25,n:"Sun Moon-hwa",w:2.7,c:"Nan Ya Plastics",i:"Chemicals",y:"-5%"},{r:26,n:"Shi Wen-long Family",w:2.5,c:"Chi Mei",i:"Electronics",y:"+5%"},{r:27,n:"Liang Tsu-shin",w:2.4,c:"MSI (Micro-Star)",i:"Technology",y:"+10%"},{r:28,n:"Cheng Chung-ping",w:2.3,c:"Delta Electronics",i:"Power",y:"+5%"},{r:29,n:"Victor Cheng",w:2.2,c:"UMC",i:"Semiconductors",y:"+8%"},{r:30,n:"Wu Tung-chin",w:2.1,c:"Primax Electronics",i:"Electronics",y:"+5%"},{r:31,n:"Ma Yu-shan",w:2.0,c:"Catcher Technology",i:"Metal Casing",y:"+8%"},{r:32,n:"Hsu Sheng-hsiung",w:1.9,c:"E Ink Holdings",i:"Display Tech",y:"+12%"},{r:33,n:"Tony Lin",w:1.85,c:"Unimicron Technology",i:"PCB",y:"+10%"},{r:34,n:"Wang Tung-ming",w:1.8,c:"Fuhwa Financial",i:"Finance",y:"+5%"},{r:35,n:"Chen Tai-ming",w:1.75,c:"Cheng Shin Rubber",i:"Manufacturing",y:"+3%"},{r:36,n:"Wu Fu-yuan",w:1.7,c:"Advantech",i:"Industrial IoT",y:"+8%"},{r:37,n:"Peter Lo",w:1.6,c:"Compal Electronics",i:"Electronics",y:"+5%"},{r:38,n:"Johnny Shih",w:1.55,c:"ASUSTeK",i:"Technology",y:"+10%"},{r:39,n:"Yen De-qian",w:1.5,c:"Nien Made Enterprise",i:"Manufacturing",y:"+5%"},{r:40,n:"Hsu Kun-tai",w:1.45,c:"Pou Chen Corp",i:"Footwear",y:"+3%"},{r:41,n:"Tsai Ming-kai",w:1.4,c:"MediaTek",i:"Semiconductors",y:"+12%"},{r:42,n:"Wang Hsueh-hung",w:1.38,c:"Evergreen Marine",i:"Shipping",y:"+5%"},{r:43,n:"Liu Tai-ying",w:1.35,c:"KMC Holdings",i:"Diversified",y:"+3%"},{r:44,n:"Lin Wei-li",w:1.32,c:"Shin Kong Financial",i:"Finance",y:"+5%"},{r:45,n:"Tu Shu-yuan",w:1.3,c:"Poya International",i:"Retail",y:"+8%"},{r:46,n:"Chang Hsiu-cheng",w:1.28,c:"Uni-President",i:"F&B",y:"+5%"},{r:47,n:"Wu Chung-yi",w:1.25,c:"Chailease Holding",i:"Finance",y:"+5%"},{r:48,n:"Chen Jiung-hsing",w:1.22,c:"Kindom Dev",i:"Real Estate",y:"+3%"},{r:49,n:"Luo Chieh",w:1.2,c:"Largan Precision",i:"Optics",y:"+5%"},{r:50,n:"Lee Kun-yao",w:1.18,c:"AU Optronics",i:"Display Tech",y:"+3%"}];
+D.HK=[{r:1,n:"Li Ka-shing",w:45.1,c:"CK Hutchison / CK Asset",i:"Diversified",y:"+21%"},{r:2,n:"Lee Shau Kee",w:29.2,c:"Henderson Land",i:"Real Estate",y:"+8%"},{r:3,n:"Henry Cheng & Family",w:19.5,c:"Chow Tai Fook / New World",i:"Jewelry",y:"-12%"},{r:4,n:"Peter Woo",w:15.0,c:"Wheelock / Wharf",i:"Real Estate",y:"+10%"},{r:5,n:"Lui Che Woo Family",w:12.0,c:"Galaxy Ent. / K. Wah",i:"Gaming",y:"-5%"},{r:6,n:"Kadoorie Family",w:11.5,c:"CLP / Peninsula Hotels",i:"Energy",y:"+8%"},{r:7,n:"Raymond & Thomas Kwok",w:11.0,c:"Sun Hung Kai Properties",i:"Real Estate",y:"+5%"},{r:8,n:"Joseph Lau",w:10.5,c:"Chinese Estates",i:"Real Estate",y:"+12%"},{r:9,n:"Francis Lui & Family",w:9.4,c:"Galaxy Entertainment",i:"Gaming",y:"+15%"},{r:10,n:"Lee Shing-put Family",w:8.5,c:"Henderson Dev",i:"Real Estate",y:"+5%"},{r:11,n:"Liu Luen-hung",w:8.0,c:"CITIC Telecom",i:"Telecom",y:"+10%"},{r:12,n:"Mok Hing-yiu Family",w:7.5,c:"Shun Hing Group",i:"Electronics",y:"+5%"},{r:13,n:"Thomas Li Tzar Kuoi",w:7.0,c:"CK Hutchison",i:"Diversified",y:"+8%"},{r:14,n:"Robert Ng Chee Siong",w:6.8,c:"Sino Group",i:"Real Estate",y:"+3%"},{r:15,n:"Pan Sutong",w:6.5,c:"Goldin Financial",i:"Real Estate",y:"-5%"},{r:16,n:"Cheng Yu-tung Family",w:6.2,c:"Chow Tai Fook Ent.",i:"Jewelry",y:"+3%"},{r:17,n:"Joseph Tsai",w:6.0,c:"Alibaba / Nets",i:"Technology",y:"+15%"},{r:18,n:"Kwong Siu-hing",w:5.5,c:"Sun Hung Kai",i:"Real Estate",y:"+2%"},{r:19,n:"Yeung Kin-man & Lam",w:5.2,c:"Biel Crystal",i:"Electronics",y:"+8%"},{r:20,n:"Lee Wai Mun",w:5.0,c:"Lee & Man Paper",i:"Manufacturing",y:"+5%"},{r:21,n:"Adrian Cheng",w:4.8,c:"New World / K11",i:"Real Estate",y:"+10%"},{r:22,n:"Pansy Ho",w:3.9,c:"MGM China / Shun Tak",i:"Gaming",y:"+3%"},{r:23,n:"Lo Ka Shui",w:3.7,c:"Great Eagle",i:"Real Estate",y:"+5%"},{r:24,n:"Hui Wing Mau",w:3.5,c:"Shimao Group",i:"Real Estate",y:"-10%"},{r:25,n:"Allan Zeman",w:3.3,c:"Lan Kwai Fong",i:"Real Estate",y:"+5%"},{r:26,n:"Victor Li Tzar-kuoi",w:3.2,c:"CK Hutchison",i:"Diversified",y:"+8%"},{r:27,n:"Cheng Kar-shun",w:3.0,c:"NWS Holdings",i:"Infrastructure",y:"+5%"},{r:28,n:"Kuok Khoon Chen",w:2.9,c:"Kerry Properties",i:"Real Estate",y:"+3%"},{r:29,n:"Pollyanna Chu",w:2.8,c:"Kingston Financial",i:"Finance",y:"+5%"},{r:30,n:"Stanley Ho Family",w:2.7,c:"SJM / STDM",i:"Gaming",y:"-3%"},{r:31,n:"William Fung",w:2.6,c:"Li & Fung",i:"Supply Chain",y:"+5%"},{r:32,n:"Michael Tien",w:2.5,c:"G2000 / Stelux",i:"Fashion",y:"+3%"},{r:33,n:"Chow Chung-kai Family",w:2.4,c:"Chow Sang Sang",i:"Jewelry",y:"+5%"},{r:34,n:"Thomas Lau Family",w:2.35,c:"Lifestyle Int'l",i:"Retail",y:"+3%"},{r:35,n:"Miguel Ko",w:2.3,c:"AGTech Holdings",i:"Technology",y:"+20%"},{r:36,n:"Peter Lee Ka-kit",w:2.25,c:"Henderson Land",i:"Real Estate",y:"+5%"},{r:37,n:"Angela Leong",w:2.3,c:"SJM Holdings",i:"Gaming",y:"-4%"},{r:38,n:"Martin Lee Ka-shing",w:2.2,c:"Henderson (family)",i:"Real Estate",y:"+3%"},{r:39,n:"Ronnie Chan",w:2.1,c:"Hang Lung Properties",i:"Real Estate",y:"+5%"},{r:40,n:"Lawrence Ho",w:2.0,c:"Melco Resorts",i:"Gaming",y:"+8%"},{r:41,n:"Gordon Wu",w:1.9,c:"Hopewell Holdings",i:"Real Estate",y:"+3%"},{r:42,n:"Lee Ka-Kit",w:1.85,c:"Henderson Land",i:"Real Estate",y:"+5%"},{r:43,n:"Mok Pui-wah",w:1.8,c:"Shun Hing Group",i:"Electronics",y:"+3%"},{r:44,n:"Vincent Lo",w:1.75,c:"Shui On Land",i:"Real Estate",y:"+5%"},{r:45,n:"James Kung",w:1.7,c:"Hysan Development",i:"Real Estate",y:"+3%"},{r:46,n:"Vivien Chen",w:1.65,c:"Nan Fung Group",i:"Real Estate",y:"+5%"},{r:47,n:"Lam Kin-ngok",w:1.6,c:"Lai Sun Group",i:"Real Estate",y:"+3%"},{r:48,n:"Canning Fok",w:1.55,c:"CK Hutchison",i:"Diversified",y:"+5%"},{r:49,n:"Patrick Lee",w:1.5,c:"Hysan Dev",i:"Real Estate",y:"+3%"},{r:50,n:"Daisy Ho",w:1.45,c:"SJM / Shun Tak",i:"Gaming",y:"+5%"}];
+D.SEA=[{r:1,n:"Pham Nhat Vuong",w:9.1,c:"Vingroup / VinFast",ct:"Vietnam",i:"Real Estate & EVs",y:"+30%"},{r:2,n:"Nguyen Thi Phuong Thao",w:3.2,c:"VietJet Air / HDBank",ct:"Vietnam",i:"Aviation",y:"+15%"},{r:3,n:"Tran Dinh Long",w:2.8,c:"Hoa Phat Group",ct:"Vietnam",i:"Steel",y:"+20%"},{r:4,n:"Ho Hung Anh",w:2.0,c:"Techcombank",ct:"Vietnam",i:"Banking",y:"+12%"},{r:5,n:"Truong Gia Binh",w:1.5,c:"FPT Corporation",ct:"Vietnam",i:"Technology",y:"+25%"},{r:6,n:"Kith Meng",w:1.8,c:"Royal Group Cambodia",ct:"Cambodia",i:"Diversified",y:"+5%"},{r:7,n:"Nguyen Dang Quang",w:1.3,c:"Masan Group",ct:"Vietnam",i:"Consumer",y:"+10%"},{r:8,n:"Tran Ba Duong",w:1.2,c:"Thaco Group",ct:"Vietnam",i:"Automotive",y:"+8%"},{r:9,n:"Bui Thanh Nhon",w:1.1,c:"Novaland Group",ct:"Vietnam",i:"Real Estate",y:"-15%"},{r:10,n:"Mong Reththy",w:1.0,c:"Mong Reththy Group",ct:"Cambodia",i:"Diversified",y:"+5%"},{r:11,n:"Do Anh Dung",w:1.0,c:"Tan Hoang Minh",ct:"Vietnam",i:"Real Estate",y:"+5%"},{r:12,n:"Ly Huy Sang",w:0.9,c:"PNJ",ct:"Vietnam",i:"Jewelry",y:"+8%"},{r:13,n:"Vo Quoc Thang",w:0.85,c:"Dat Xanh RE",ct:"Vietnam",i:"Real Estate",y:"+5%"},{r:14,n:"Ly Yong Phat",w:0.8,c:"LYP Group / NagaWorld",ct:"Cambodia",i:"Gaming",y:"+3%"},{r:15,n:"Le Phuoc Vu",w:0.8,c:"Hoa Sen Group",ct:"Vietnam",i:"Steel",y:"+10%"},{r:16,n:"Dang Van Thanh",w:0.75,c:"TTC Group",ct:"Vietnam",i:"Sugar & Energy",y:"+5%"},{r:17,n:"Serge Pun",w:0.7,c:"SPA Group / FMI",ct:"Myanmar",i:"Real Estate",y:"-10%"},{r:18,n:"Lao Meng Khin",w:0.6,c:"Shukaku Inc",ct:"Cambodia",i:"Real Estate",y:"+5%"},{r:19,n:"Tay Za",w:0.6,c:"Htoo Group",ct:"Myanmar",i:"Diversified",y:"-15%"},{r:20,n:"Phongsavanh Boupha",w:0.5,c:"Phongsavanh Group",ct:"Laos",i:"Banking",y:"+3%"},{r:21,n:"Zaw Zaw",w:0.5,c:"Max Myanmar",ct:"Myanmar",i:"Construction",y:"-10%"},{r:22,n:"Aung Ko Win",w:0.45,c:"KBZ Bank",ct:"Myanmar",i:"Banking",y:"-10%"},{r:23,n:"Bounhom Ubonpaseuth",w:0.4,c:"Lao Brewery",ct:"Laos",i:"Beverages",y:"+5%"},{r:24,n:"Thai Hua",w:0.4,c:"Thai Hua Group",ct:"Myanmar",i:"Real Estate",y:"-5%"},{r:25,n:"Le Viet Hai",w:0.35,c:"Hoa Binh Construction",ct:"Vietnam",i:"Construction",y:"+5%"},{r:26,n:"Tran Le Nguyen",w:0.32,c:"Kinh Do Corp",ct:"Vietnam",i:"F&B",y:"+5%"},{r:27,n:"Nguyen Van Dat",w:0.30,c:"Phat Dat RE",ct:"Vietnam",i:"Real Estate",y:"+8%"},{r:28,n:"Pengiran M. Abdul Qawi",w:0.5,c:"Royal Brunei",ct:"Brunei",i:"Aviation",y:"+3%"},{r:29,n:"Brunei Investment Agency",w:30.0,c:"BIA (sovereign)",ct:"Brunei",i:"Sovereign Wealth",y:"+5%"},{r:30,n:"Hans Indigo Sy",w:0.3,c:"SM Group (regional)",ct:"Philippines",i:"Retail",y:"+5%"}];
+
+/* === RSS FEED FETCHING (rss2json.com - free, reliable, no auth) === */
+
+/* ═══ RELEVANCE FILTER — removes geopolitical noise ═══ */
+var BLOCK=["iran","missile","attack","bomb","war zone","military strike","nato","nuclear weapon","terrorist","assassination","coup d'etat","drone strike","ceasefire","invasion","airstrike","hostage","refugee crisis","famine","earthquake","hurricane","tornado","pandemic surge","covid wave","plane crash","train derailment","shooting","mass casualty","protest riot","sanctions imposed","embassy","consulate","genocide","ethnic cleansing"];
+var BOOST=["billionaire","net worth","tycoon","founder","richest","fortune","wealth","family office","private bank","ipo","listing","fundrais","series c","series d","unicorn","valuation","acquisition","merger","m&a","stake","shareholder","dividend","heir","succession","inheritance","estate","next generation","family business","conglomerate","ultra-high","uhnw","hnw","private wealth","wealth management","luxury property","bungalow","penthouse"];
+function isRelevant(title,desc){
+  var t=(title+" "+(desc||"")).toLowerCase();
+  for(var i=0;i<BLOCK.length;i++){if(t.indexOf(BLOCK[i])>=0)return false;}
+  return true;
+}
+function relevanceScore(title,desc){
+  var t=(title+" "+(desc||"")).toLowerCase();var sc=0;
+  for(var i=0;i<BOOST.length;i++){if(t.indexOf(BOOST[i])>=0)sc++;}
+  return sc;
+}
+
+/* ═══ SUPABASE CONFIG (for production mode) ═══ */
+function trySupabase(tabName){
+  if(!tabName)return Promise.resolve(null);
+  return fetch("/api/news?tab="+encodeURIComponent(tabName))
+    .then(function(r){if(!r.ok)return null;return r.json();})
+    .then(function(rows){
+      if(!Array.isArray(rows)||!rows.length)return null;
+      return rows.map(function(r){return{title:r.title,link:r.link,date:r.date,source:r.source,desc:r.description,tag:r.tag,color:r.color,country:r.country,signal:r.signal};});
+    }).catch(function(){return null;});
+}
+
+/* ═══ RSS ENGINE ═══ */
+var PX="https://api.rss2json.com/v1/api.json?rss_url=";
+function fR(u){return fetch(PX+encodeURIComponent(u)).then(function(r){return r.json()}).then(function(d){
+if(d.status==="ok"&&d.items){return d.items.map(function(it){
+var desc=(it.description||"").replace(/<[^>]*>/g,"").slice(0,200);
+var src="";try{src=new URL(it.link||"").hostname.replace("www.","");}catch(x){src=it.author||"";}
+return{title:it.title||"",link:it.link||"",date:it.pubDate?it.pubDate.split(" ")[0]:"",source:src,desc:desc};
+});}return[];}).catch(function(){return[];});}
+function lF(feeds,tabName){
+  return trySupabase(tabName).then(function(cached){
+    if(cached)return cached;
+    return Promise.all(feeds.map(function(f){
+      return fR(f.url).then(function(items){return items.map(function(it){it.tag=f.tag;it.color=f.color;it.country=f.country||"";it.signal=f.signal||"";return it;});});
+    })).then(function(res){var all=[].concat.apply([],res);var seen={};
+      return all.filter(function(it){
+        if(seen[it.title])return false;seen[it.title]=true;
+        return isRelevant(it.title,it.desc);
+      }).sort(function(a,b){
+        var sa=relevanceScore(a.title,a.desc),sb=relevanceScore(b.title,b.desc);
+        if(sb!==sa)return sb-sa;
+        return new Date(b.date||0)-new Date(a.date||0);
+      });
+    });
+  });
+}
+
+/* ═══ COMPREHENSIVE FEED CONFIGS ═══ */
+
+/* TAB 2: Pre-IPO & Wealth Creation — monitors funding rounds, IPOs, M&A, exits across all markets */
+var F_WEALTH=[
+/* IPOs by market */
+{url:"https://news.google.com/rss/search?q=IPO+listing+SGX+Singapore+Exchange&hl=en-SG&gl=SG",tag:"IPO",color:"#1B8F5A",country:"Singapore",signal:"IPO"},
+{url:"https://news.google.com/rss/search?q=IPO+listing+Bursa+Malaysia+Exchange&hl=en-MY&gl=MY",tag:"IPO",color:"#1B8F5A",country:"Malaysia",signal:"IPO"},
+{url:"https://news.google.com/rss/search?q=IPO+listing+IDX+Indonesia+Stock+Exchange&hl=en&gl=ID",tag:"IPO",color:"#1B8F5A",country:"Indonesia",signal:"IPO"},
+{url:"https://news.google.com/rss/search?q=IPO+listing+HKEX+Hong+Kong+Exchange&hl=en",tag:"IPO",color:"#1B8F5A",country:"Hong Kong",signal:"IPO"},
+{url:"https://news.google.com/rss/search?q=IPO+listing+SET+Thailand+Stock+Exchange&hl=en",tag:"IPO",color:"#1B8F5A",country:"Thailand",signal:"IPO"},
+{url:"https://news.google.com/rss/search?q=IPO+listing+PSE+Philippines+Stock+Exchange&hl=en",tag:"IPO",color:"#1B8F5A",country:"Philippines",signal:"IPO"},
+/* Pre-IPO & Fundraising */
+{url:"https://news.google.com/rss/search?q=startup+fundraising+%22Series+C%22+OR+%22Series+D%22+Asia+Southeast&hl=en",tag:"Pre-IPO",color:"#6B5BAE",country:"SEA",signal:"Pre-IPO Funding"},
+{url:"https://news.google.com/rss/search?q=venture+capital+funding+round+Singapore+Indonesia+Vietnam&hl=en-SG&gl=SG",tag:"Fundraising",color:"#C6943E",country:"SEA",signal:"Fundraising"},
+{url:"https://news.google.com/rss/search?q=unicorn+startup+valuation+billion+Asia+Southeast&hl=en",tag:"Unicorn",color:"#3A7BD5",country:"SEA",signal:"Unicorn Watch"},
+/* M&A & Exits */
+{url:"https://news.google.com/rss/search?q=merger+acquisition+deal+Asia+Singapore+billion&hl=en-SG&gl=SG",tag:"M&A",color:"#1B2A4A",country:"Asia",signal:"M&A"},
+{url:"https://news.google.com/rss/search?q=startup+exit+acquisition+sold+Asia+unicorn&hl=en",tag:"Exit",color:"#C0392B",country:"Asia",signal:"Founder Exit"},
+{url:"https://news.google.com/rss/search?q=secondary+share+sale+pre-IPO+Asia+founder&hl=en",tag:"Secondary",color:"#2A8F8F",country:"Asia",signal:"Secondary Sale"},
+];
+
+/* TAB 3: Corporate & Filing Signals — dividends, restructuring, estate, insider moves */
+var F_CORP=[
+/* Substantial shareholder & insider moves */
+{url:"https://news.google.com/rss/search?q=%22substantial+shareholder%22+OR+%22major+shareholder%22+SGX+Bursa+IDX&hl=en",tag:"Filing",color:"#1B2A4A",country:"SEA",signal:"Shareholder Filing"},
+{url:"https://news.google.com/rss/search?q=insider+transaction+OR+%22director+dealing%22+Asia+stock+exchange&hl=en",tag:"Insider",color:"#6B5BAE",country:"Asia",signal:"Insider Transaction"},
+/* Dividends & payouts at family companies */
+{url:"https://news.google.com/rss/search?q=special+dividend+OR+%22interim+dividend%22+Singapore+Malaysia+Indonesia+Hong+Kong&hl=en",tag:"Dividend",color:"#1B8F5A",country:"SEA/HK",signal:"Dividend Payout"},
+/* Corporate restructuring & demerger */
+{url:"https://news.google.com/rss/search?q=corporate+restructuring+OR+demerger+OR+spin-off+Asia+conglomerate&hl=en",tag:"Restructure",color:"#C6943E",country:"Asia",signal:"Restructuring"},
+/* Succession & estate */
+{url:"https://news.google.com/rss/search?q=succession+OR+%22next+generation%22+OR+inheritance+tycoon+Asia+family+business&hl=en",tag:"Succession",color:"#C0392B",country:"Asia",signal:"Succession"},
+{url:"https://news.google.com/rss/search?q=billionaire+death+OR+%22passed+away%22+tycoon+Asia+fortune+estate&hl=en",tag:"Estate",color:"#C0392B",country:"Asia",signal:"Estate Settlement"},
+/* Prospect-linked corporate news by country */
+{url:"https://news.google.com/rss/search?q=tycoon+OR+billionaire+Singapore+%22net+worth%22+OR+business+OR+fortune&hl=en-SG&gl=SG",tag:"Prospect",color:"#3A7BD5",country:"Singapore",signal:"Prospect Intel"},
+{url:"https://news.google.com/rss/search?q=tycoon+OR+billionaire+Malaysia+%22net+worth%22+OR+Bursa+OR+fortune&hl=en-MY&gl=MY",tag:"Prospect",color:"#3A7BD5",country:"Malaysia",signal:"Prospect Intel"},
+{url:"https://news.google.com/rss/search?q=konglomerat+OR+billionaire+Indonesia+%22net+worth%22+OR+IDX+OR+fortune&hl=en&gl=ID",tag:"Prospect",color:"#3A7BD5",country:"Indonesia",signal:"Prospect Intel"},
+{url:"https://news.google.com/rss/search?q=tycoon+OR+billionaire+Thailand+%22net+worth%22+OR+SET+OR+fortune&hl=en",tag:"Prospect",color:"#3A7BD5",country:"Thailand",signal:"Prospect Intel"},
+{url:"https://news.google.com/rss/search?q=tycoon+OR+billionaire+Philippines+%22net+worth%22+OR+PSE+OR+fortune&hl=en",tag:"Prospect",color:"#3A7BD5",country:"Philippines",signal:"Prospect Intel"},
+{url:"https://news.google.com/rss/search?q=billionaire+China+%22net+worth%22+OR+%22rich+list%22+OR+fortune+OR+wealth&hl=en",tag:"Prospect",color:"#3A7BD5",country:"China",signal:"Prospect Intel"},
+{url:"https://news.google.com/rss/search?q=tycoon+OR+billionaire+%22Hong+Kong%22+%22net+worth%22+OR+property+OR+fortune&hl=en",tag:"Prospect",color:"#3A7BD5",country:"Hong Kong",signal:"Prospect Intel"},
+{url:"https://news.google.com/rss/search?q=billionaire+Taiwan+%22net+worth%22+OR+TSMC+OR+fortune+OR+Foxconn&hl=en",tag:"Prospect",color:"#3A7BD5",country:"Taiwan",signal:"Prospect Intel"},
+{url:"https://news.google.com/rss/search?q=billionaire+Vietnam+%22net+worth%22+OR+VinFast+OR+fortune+OR+Vingroup&hl=en",tag:"Prospect",color:"#3A7BD5",country:"Vietnam",signal:"Prospect Intel"},
+];
+
+/* TAB 4: Private Wealth & Migration — family offices, private banking, cross-border, next-gen */
+var F_PW=[
+/* Private banking & wealth management */
+{url:"https://news.google.com/rss/search?q=%22private+bank%22+OR+%22private+banking%22+Asia+Singapore+Hong+Kong&hl=en-SG&gl=SG",tag:"Private Banking",color:"#1B2A4A",country:"Asia",signal:"PB Activity"},
+{url:"https://news.google.com/rss/search?q=%22wealth+management%22+Asia+Singapore+UHNW+hire+OR+launch&hl=en",tag:"Wealth Mgmt",color:"#3A7BD5",country:"Asia",signal:"WM Activity"},
+{url:"https://news.google.com/rss/search?q=%22Asian+Private+Banker%22+OR+%22private+wealth%22+Southeast+Asia&hl=en",tag:"Industry",color:"#6B5BAE",country:"Asia",signal:"Industry News"},
+/* Family office formation */
+{url:"https://news.google.com/rss/search?q=%22family+office%22+Singapore+OR+Hong+Kong+new+OR+launch+OR+establish&hl=en-SG&gl=SG",tag:"Family Office",color:"#1B8F5A",country:"Singapore/HK",signal:"FO Formation"},
+{url:"https://news.google.com/rss/search?q=%22single+family+office%22+Asia+MAS+license+OR+registered&hl=en",tag:"Family Office",color:"#1B8F5A",country:"Asia",signal:"FO Formation"},
+/* Cross-border wealth migration */
+{url:"https://news.google.com/rss/search?q=%22Global+Investor+Programme%22+OR+%22GIP%22+Singapore+investment+migration&hl=en-SG&gl=SG",tag:"Migration",color:"#C6943E",country:"Singapore",signal:"Wealth Migration"},
+{url:"https://news.google.com/rss/search?q=%22wealth+migration%22+OR+%22investment+visa%22+OR+%22relocate%22+UHNW+Singapore+OR+%22Hong+Kong%22&hl=en",tag:"Migration",color:"#C6943E",country:"Asia",signal:"Wealth Migration"},
+{url:"https://news.google.com/rss/search?q=%22golden+visa%22+OR+%22residency+by+investment%22+Asia+Southeast&hl=en",tag:"Migration",color:"#C6943E",country:"SEA",signal:"Wealth Migration"},
+/* Next generation tracking */
+{url:"https://news.google.com/rss/search?q=%22second+generation%22+OR+%22next+generation%22+billionaire+Asia+heir+business&hl=en",tag:"Next Gen",color:"#2A8F8F",country:"Asia",signal:"Next Gen"},
+{url:"https://news.google.com/rss/search?q=heir+OR+heiress+OR+%22family+business%22+succession+Asia+wealth+transfer&hl=en",tag:"Next Gen",color:"#2A8F8F",country:"Asia",signal:"Wealth Transfer"},
+/* Property signals */
+{url:"https://news.google.com/rss/search?q=luxury+property+OR+%22good+class+bungalow%22+Singapore+OR+%22The+Peak%22+Hong+Kong+sold&hl=en",tag:"Property",color:"#C0392B",country:"SG/HK",signal:"Property Signal"},
+];
+
+/* ═══ COMPONENTS ═══ */
+function B(p){return e("span",{className:"bg "+(p.cls||"")},p.children);}
+
+/* TAB 1: WEALTH TABLE (unchanged) */
+function WealthTab(){
+  var _=React.useState;
+  var s1=_("SG"),cc=s1[0],sCc=s1[1];var s2=_(""),q=s2[0],sQ=s2[1];
+  var s3=_("All"),ind=s3[0],sI=s3[1];var s4=_("rank"),so=s4[0],sS=s4[1];
+  var data=D[cc]||[];var co=CC[cc];
+  var is={};data.forEach(function(d){is[d.i]=1;});var ins=["All"].concat(Object.keys(is));
+  var fil=data.filter(function(p){return(p.n.toLowerCase().indexOf(q.toLowerCase())>=0||p.c.toLowerCase().indexOf(q.toLowerCase())>=0)&&(ind==="All"||p.i===ind);
+  }).sort(function(a,b){return so==="rank"?a.r-b.r:so==="worth"?b.w-a.w:a.n.localeCompare(b.n);});
+  var tw=0;data.forEach(function(d){tw+=d.w;});
+  return e("div",null,
+    e("div",{className:"ct2"},Object.keys(CC).map(function(k){return e("button",{key:k,className:"cb"+(cc===k?" on":""),onClick:function(){sCc(k);sQ("");sI("All");}},CC[k].f+" "+CC[k].n);})),
+    e("div",{className:"sg"},
+      e("div",{className:"cd"},e("div",{className:"kl"},"Listed"),e("div",{className:"kv"},data.length)),
+      e("div",{className:"cd"},e("div",{className:"kl"},"Combined Wealth"),e("div",{className:"kv",style:{color:"var(--nv)"}},"$"+tw.toFixed(1)+"B")),
+      e("div",{className:"cd"},e("div",{className:"kl"},"Avg. Wealth"),e("div",{className:"kv"},"$"+(data.length?(tw/data.length).toFixed(1):"0")+"B")),
+      e("div",{className:"cd"},e("div",{className:"kl"},"Filtered"),e("div",{className:"kv"},fil.length)),
+      e("div",{className:"cd"},e("div",{className:"kl"},"Source"),e("a",{href:co.u,target:"_blank",rel:"noopener noreferrer",className:"sl",style:{marginTop:6}},co.l+" \u2197"))),
+    e("div",{className:"fl"},
+      e("input",{placeholder:"Search name or company\u2026",value:q,onChange:function(v){sQ(v.target.value);}}),
+      e("div",{className:"fg"},e("span",{className:"fl-l"},"Industry"),e("select",{value:ind,onChange:function(v){sI(v.target.value);}},ins.map(function(i){return e("option",{key:i,value:i},i);}))),
+      e("div",{className:"fg"},e("span",{className:"fl-l"},"Sort"),e("select",{value:so,onChange:function(v){sS(v.target.value);}},e("option",{value:"rank"},"Rank"),e("option",{value:"worth"},"Net Worth"),e("option",{value:"name"},"Name"))),
+      e("span",{className:"fc"},fil.length+" of "+data.length)),
+    e("div",{className:"tbl"},e("div",{className:"tsc"},
+      e("table",null,
+        e("thead",null,e("tr",null,e("th",null,"#"),e("th",null,"Name"),e("th",{style:{textAlign:"right"}},"Net Worth"),e("th",null,"Company"),e("th",null,"Industry"),cc==="SEA"?e("th",null,"Country"):null,e("th",{style:{textAlign:"right"}},"YoY"))),
+        e("tbody",null,fil.map(function(p,i){
+          var yc=p.y==="New"||p.y==="Ret."?"bg-a":p.y.charAt(0)==="+"?"bg-g":p.y.charAt(0)==="-"?"bg-r":"";
+          return e("tr",{key:i},e("td",{style:{fontWeight:700,color:p.r<=3?"var(--gd)":"var(--txM)"}},p.r),e("td",{style:{fontWeight:600}},p.n),
+            e("td",{style:{textAlign:"right",fontWeight:700,fontFamily:"var(--fm)"}},"\u0024"+p.w+"B"),e("td",{style:{color:"var(--tx2)"}},p.c),
+            e("td",null,e(B,{cls:"bg-n"},p.i)),cc==="SEA"?e("td",null,e(B,{cls:"bg-c"},p.ct)):null,
+            e("td",{style:{textAlign:"right"}},e(B,{cls:yc},p.y)));
+        }))))),
+    e("div",{style:{marginTop:10,fontSize:11,color:"var(--txM)"}},"Data: Forbes Rich Lists 2025\u20132026. Net worth in US$ Billions."));
+}
+
+/* ═══ INTELLIGENCE NEWS TAB (reusable, with signal types) ═══ */
+function IntelTab(p){
+  var _=React.useState;
+  var s1=_([]),items=s1[0],sI=s1[1];var s2=_(true),ld=s2[0],sL=s2[1];
+  var s3=_("All"),dF=s3[0],sDF=s3[1];var s4=_("All"),tF=s4[0],sTF=s4[1];
+  var s5=_("All"),sF=s5[0],sSF=s5[1];var s6=_("All"),cF=s6[0],sCF=s6[1];
+  var s7=_("All"),sigF=s7[0],sSigF=s7[1];
+  var s8=_(""),q=s8[0],sQ=s8[1];var s9=_("newest"),so=s9[0],sSO=s9[1];
+  var ref=React.useRef(false);
+  function load(){sL(true);lF(p.feeds,p.tabKey||"").then(function(r){
+    sI(function(prev){var c=prev.concat(r);var s={};return c.filter(function(x){if(s[x.title])return false;s[x.title]=true;return true;}).sort(function(a,b){return new Date(b.date||0)-new Date(a.date||0);});});sL(false);});}
+  React.useEffect(function(){if(!ref.current){ref.current=true;load();}},[]);
+
+  var ts={"All":1},ss={"All":1},cs={"All":1},sigs={"All":1};
+  items.forEach(function(x){if(x.tag)ts[x.tag]=1;if(x.source)ss[x.source]=1;if(x.country)cs[x.country]=1;if(x.signal)sigs[x.signal]=1;});
+  var now=new Date();
+  var fil=items.filter(function(x){
+    var mq=!q||x.title.toLowerCase().indexOf(q.toLowerCase())>=0||(x.desc||"").toLowerCase().indexOf(q.toLowerCase())>=0;
+    var mt=tF==="All"||x.tag===tF;var ms=sF==="All"||x.source===sF;var mc=cF==="All"||x.country===cF;
+    var msig=sigF==="All"||x.signal===sigF;var md=true;
+    if(dF==="Today")md=(x.date||"")===now.toISOString().split("T")[0];
+    if(dF==="This Week"){var w=new Date(now-7*864e5);md=new Date(x.date||0)>=w;}
+    if(dF==="This Month")md=(x.date||"").slice(0,7)===now.toISOString().slice(0,7);
+    if(dF==="Past 3 Months"){var m=new Date(now-90*864e5);md=new Date(x.date||0)>=m;}
+    return mq&&mt&&ms&&mc&&msig&&md;});
+  if(so==="oldest")fil=fil.slice().reverse();
+
+  /* Signal type counters */
+  var sigCounts={};items.forEach(function(x){if(x.signal){sigCounts[x.signal]=(sigCounts[x.signal]||0)+1;}});
+
+  return e("div",null,
+    e("div",{className:"st"},e("div",null,e("div",{className:"sh"},p.title),e("div",{className:"ss"},p.subtitle)),
+      e("div",{style:{display:"flex",gap:6,alignItems:"center"}},
+        e("span",{style:{fontSize:11,color:"var(--txM)",fontFamily:"var(--fm)"}},items.length+" signals"),
+        e("button",{onClick:load,disabled:ld,className:"rb"},ld?"Loading\u2026":"Refresh"))),
+    /* Signal type summary cards */
+    p.signals?e("div",{className:"sig-grid"},p.signals.map(function(s){
+      return e("div",{key:s.name,className:"sig",style:{borderLeftColor:s.color,cursor:"pointer",background:sigF===s.name?"#F5F6F8":"var(--wh)"},onClick:function(){sSigF(sigF===s.name?"All":s.name);}},
+        e("div",{className:"sig-t"},s.name),
+        e("div",{className:"sig-v"},sigCounts[s.name]||0),
+        e("div",{className:"sig-s"},s.desc));
+    })):null,
+    /* Filters */
+    e("div",{className:"fl"},
+      e("input",{placeholder:"Search articles\u2026",value:q,onChange:function(v){sQ(v.target.value);}}),
+      e("div",{className:"fg"},e("span",{className:"fl-l"},"Signal"),e("select",{value:sigF,onChange:function(v){sSigF(v.target.value);}},Object.keys(sigs).map(function(t){return e("option",{key:t,value:t},t);}))),
+      e("div",{className:"fg"},e("span",{className:"fl-l"},"Category"),e("select",{value:tF,onChange:function(v){sTF(v.target.value);}},Object.keys(ts).map(function(t){return e("option",{key:t,value:t},t);}))),
+      e("div",{className:"fg"},e("span",{className:"fl-l"},"Country"),e("select",{value:cF,onChange:function(v){sCF(v.target.value);}},Object.keys(cs).map(function(t){return e("option",{key:t,value:t},t);}))),
+      e("div",{className:"fg"},e("span",{className:"fl-l"},"Source"),e("select",{value:sF,onChange:function(v){sSF(v.target.value);}},Object.keys(ss).map(function(t){return e("option",{key:t,value:t},t);}))),
+      e("div",{className:"fg"},e("span",{className:"fl-l"},"Date"),e("select",{value:dF,onChange:function(v){sDF(v.target.value);}},["All","Today","This Week","This Month","Past 3 Months"].map(function(d){return e("option",{key:d,value:d},d);}))),
+      e("div",{className:"fg"},e("span",{className:"fl-l"},"Sort"),e("select",{value:so,onChange:function(v){sSO(v.target.value);}},e("option",{value:"newest"},"Newest"),e("option",{value:"oldest"},"Oldest"))),
+      e("span",{className:"fc"},fil.length+" results")),
+    ld&&items.length===0?e("div",{className:"em"},e("div",{className:"sp"}),e("div",null,"Scanning "+p.feeds.length+" intelligence feeds\u2026")):null,
+    !ld&&fil.length===0?e("div",{className:"em"},"No articles match your filters."):null,
+    e("div",null,fil.slice(0,80).map(function(n,i){
+      return e("a",{key:i,href:n.link||"#",target:"_blank",rel:"noopener noreferrer",className:"ni"},
+        e("div",{className:"nt"},
+          e("span",{className:"ntg",style:{background:(n.color||"#5A6577")+"18",color:n.color||"var(--tx2)"}},n.tag),
+          e("span",{className:"ntt"},n.title)),
+        e("div",{className:"nm"},
+          e("span",null,n.source),e("span",null,"\u00B7"),e("span",null,n.date),
+          n.country?e(B,{cls:"bg-c"},n.country):null,
+          n.signal?e(B,{cls:"bg-n"},n.signal):null,
+          e("a",{href:n.link||"#",target:"_blank",rel:"noopener noreferrer",onClick:function(ev){ev.stopPropagation();}},"Source \u2197")),
+        n.desc?e("div",{className:"nch"},e("span",{className:"nc"},n.desc.slice(0,140)+(n.desc.length>140?"\u2026":""))):null);
+    })));
+}
+
+/* ═══ AI ASSISTANT ═══ */
+function AIChat(){
+  var _=React.useState;
+  var s1=_([{r:"a",t:"Welcome to Borneo Strategic Partners AI. Enter your Anthropic API key above, then ask about billionaires, wealth trends, or private banking across Asia."}]),msgs=s1[0],sM=s1[1];
+  var s2=_(""),inp=s2[0],sIn=s2[1];var s3=_(false),busy=s3[0],sB=s3[1];
+  var s4=_(""),key=s4[0],sK=s4[1];var ref=React.useRef(null);
+  React.useEffect(function(){if(ref.current)ref.current.scrollIntoView({behavior:"smooth"});},[msgs]);
+  var ctx=[];Object.keys(D).forEach(function(c){D[c].slice(0,8).forEach(function(b){ctx.push(b.n+":$"+b.w+"B,"+b.c);});});
+  function send(){
+    if(!inp.trim()||busy)return;
+    if(!key.trim()){sM(function(p){return p.concat([{r:"a",t:"Please enter your Anthropic API key above. Get one at console.anthropic.com."}]);});return;}
+    var q=inp.trim();sIn("");sM(function(p){return p.concat([{r:"u",t:q}]);});sB(true);
+    fetch("https://api.anthropic.com/v1/messages",{method:"POST",
+      headers:{"Content-Type":"application/json","x-api-key":key.trim(),"anthropic-version":"2023-06-01","anthropic-dangerous-direct-browser-access":"true"},
+      body:JSON.stringify({model:"claude-sonnet-4-20250514",max_tokens:1200,
+        system:"You are the AI for Borneo Strategic Partners, a private wealth intelligence firm covering SEA & Greater China. Data: "+ctx.join(";")+". Answer concisely about billionaires, wealth, private banking.",
+        messages:[{role:"user",content:q}]})
+    }).then(function(r){return r.json();}).then(function(d){
+      var txt="";if(d.content){d.content.forEach(function(b){if(b.type==="text")txt+=(txt?"\n\n":"")+b.text;});}
+      if(d.error)txt="API Error: "+(d.error.message||JSON.stringify(d.error));
+      sM(function(p){return p.concat([{r:"a",t:txt||"No response."}]);});sB(false);
+    }).catch(function(err){sM(function(p){return p.concat([{r:"a",t:"Error: "+err.message}]);});sB(false);});
+  }
+  return e("div",null,
+    e("div",{className:"apib"},e("label",null,"Anthropic API Key"),
+      e("input",{type:"password",placeholder:"sk-ant-api03-\u2026",value:key,onChange:function(v){sK(v.target.value);}}),
+      e("div",{className:"apin"},"Required for AI chatbot. Get your key at ",e("a",{href:"https://console.anthropic.com/settings/keys",target:"_blank"},"console.anthropic.com"),". Key is sent directly to Anthropic only.")),
+    e("div",{className:"chb"},
+      e("div",{className:"chm"},msgs.map(function(m,i){return e("div",{key:i,className:"msg"},e("div",{className:m.r==="u"?"mu":"ma"},m.t));}),
+        busy?e("div",{className:"msg"},e("div",{className:"ma"},e("div",{className:"dt2"},e("span"),e("span"),e("span")))):null,e("div",{ref:ref})),
+      e("div",{className:"chi"},
+        e("input",{value:inp,onChange:function(v){sIn(v.target.value);},onKeyDown:function(v){if(v.key==="Enter")send();},placeholder:"Ask about billionaires, wealth trends, private banking\u2026",disabled:busy}),
+        e("button",{onClick:send,disabled:busy||!inp.trim()},busy?"Thinking\u2026":"Send"))));
+}
+
+/* ═══ SIGNAL TYPE DEFINITIONS ═══ */
+var SIG_WEALTH=[
+  {name:"IPO",color:"#1B8F5A",desc:"New listings across SGX, Bursa, IDX, HKEX, SET, PSE"},
+  {name:"Pre-IPO Funding",color:"#6B5BAE",desc:"Series C/D rounds, late-stage funding"},
+  {name:"Fundraising",color:"#C6943E",desc:"VC rounds, growth equity across SEA"},
+  {name:"Unicorn Watch",color:"#3A7BD5",desc:"$1B+ valuation startups"},
+  {name:"M&A",color:"#1B2A4A",desc:"Mergers, acquisitions, corporate deals"},
+  {name:"Founder Exit",color:"#C0392B",desc:"Startup exits, founder liquidity events"},
+  {name:"Secondary Sale",color:"#2A8F8F",desc:"Pre-IPO secondary share sales"},
+];
+var SIG_CORP=[
+  {name:"Shareholder Filing",color:"#1B2A4A",desc:"Substantial shareholder notices"},
+  {name:"Insider Transaction",color:"#6B5BAE",desc:"Director dealings, insider buys/sells"},
+  {name:"Dividend Payout",color:"#1B8F5A",desc:"Special/interim dividends at family cos"},
+  {name:"Restructuring",color:"#C6943E",desc:"Demergers, spin-offs, corporate splits"},
+  {name:"Succession",color:"#C0392B",desc:"Next-gen takeovers, management changes"},
+  {name:"Estate Settlement",color:"#C0392B",desc:"Wealth events following patriarch death"},
+  {name:"Prospect Intel",color:"#3A7BD5",desc:"Tycoon/billionaire news by country"},
+];
+var SIG_PW=[
+  {name:"PB Activity",color:"#1B2A4A",desc:"Private bank hires, launches, moves"},
+  {name:"WM Activity",color:"#3A7BD5",desc:"Wealth management industry news"},
+  {name:"Industry News",color:"#6B5BAE",desc:"Asian Private Banker, industry reports"},
+  {name:"FO Formation",color:"#1B8F5A",desc:"New family offices in SG/HK"},
+  {name:"Wealth Migration",color:"#C6943E",desc:"GIP, golden visa, relocation signals"},
+  {name:"Next Gen",color:"#2A8F8F",desc:"Second-gen heirs, wealth transfer"},
+  {name:"Wealth Transfer",color:"#2A8F8F",desc:"Intergenerational succession events"},
+  {name:"Property Signal",color:"#C0392B",desc:"Ultra-luxury property transactions"},
+];
+
+/* ═══ MAIN APP ═══ */
+function App(){
+  var s=React.useState(0),tab=s[0],sT=s[1];
+  var tabs=["SEA & Greater China Wealth","Pre-IPO & Wealth Creation","Corporate & Filing Signals","Private Wealth & Migration","AI Assistant"];
+  return e("div",null,
+    e("div",{className:"hd"},e("div",{className:"hdi"},
+      e("div",{className:"hdt"},
+        e("div",null,e("div",{className:"lg-t"},"Borneo Strategic Partners"),e("div",{className:"lg-s"},"Private Wealth Intelligence")),
+        e("div",{style:{fontSize:10,color:"rgba(255,255,255,.3)",fontFamily:"var(--fm)",letterSpacing:"1.5px"}},"INTELLIGENCE PLATFORM")),
+      e("div",{className:"tabs"},tabs.map(function(t,i){return e("button",{key:i,className:"tb"+(tab===i?" on":""),onClick:function(){sT(i);}},t);})))),
+    e("div",{className:"ct"},
+      tab===0?e(WealthTab):null,
+      tab===1?e(IntelTab,{title:"Pre-IPO & Wealth Creation Signals",subtitle:"Monitors IPO filings, late-stage funding rounds, M&A deals, founder exits, and secondary sales across SGX, Bursa, IDX, HKEX, SET, PSE, and TWSE. Screens Google News RSS from CNBC, Bloomberg, DealStreetAsia, The Edge, Straits Times, Nikkei Asia, and regional business publications.",feeds:F_WEALTH,signals:SIG_WEALTH,tabKey:"wealth"}):null,
+      tab===2?e(IntelTab,{title:"Corporate & Filing Signals",subtitle:"Tracks substantial shareholder notices, insider transactions, special dividends at family-controlled companies, corporate restructurings, succession events, and estate settlements. Screens news from all covered markets: Singapore, Malaysia, Indonesia, Thailand, Philippines, China, Hong Kong, Taiwan, and Vietnam.",feeds:F_CORP,signals:SIG_CORP,tabKey:"corp"}):null,
+      tab===3?e(IntelTab,{title:"Private Wealth & Migration Intelligence",subtitle:"Monitors private banking activity, new family office formations, cross-border wealth migration (GIP, golden visas), next-generation heir movements, intergenerational wealth transfers, and ultra-luxury property transactions across the region.",feeds:F_PW,signals:SIG_PW,tabKey:"pw"}):null,
+      tab===4?e(AIChat):null));
+}
+ReactDOM.render(e(App),document.getElementById("root"));
+</script></body></html>
