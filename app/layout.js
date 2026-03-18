@@ -1,4 +1,4 @@
-import { supabase } from "../../../lib/supabase.js";
+import { supabase } from "../lib/supabase.js";
 
 export async function GET(request) {
   const { searchParams } = new URL(request.url);
